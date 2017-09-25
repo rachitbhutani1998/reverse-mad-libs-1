@@ -14,7 +14,7 @@ Consumers find a product of interest by visiting the __3__ of the retailer direc
  As of 2016, customers can __4__ online using a __5__ of different computers and devices, including desktop computers, laptops, tablet computers and smartphones."""
 
 # Answer for second_level 
-level_2_answers = ['online', 'consumers', 'website', 'shop', 'range']
+second_level_answers = ['online', 'consumers', 'website', 'shop', 'range']
 
 
 
@@ -24,7 +24,39 @@ level_3 ="""A 100 gram serving of milk __1__ supplies 540 __2__.
   composed mainly of palmitic __4__ and stearic acid, while the predominant unsaturated fat is __5__ acid."""
 
 # Answer for third_level 
-level_3_answers = ['chocolate', 'calories', 'fat', 'acid', 'oleic']
+third_level_answers = ['chocolate', 'calories', 'fat', 'acid', 'oleic']
+
+
+
+
+
+def levels():
+    '''
+The function has no input .This function asks the user for hardness of the level and then returns the level asked by user.
+'''
+
+    level = raw_input('''Enter easy for first_level medium for second_level hard for third_level''')
+    if level == 'easy':
+        print first_level
+        start_game(first_level, first_level_answers)
+    else:
+        if level == 'medium':
+         print _second_level
+        start_game(second_level, second_level_answers)
+    else:
+      if level == 'hard':
+        print str(third_level)
+        start_game(third_level, third_level_answers)
+    else:
+        print 'You entered a wrong choice\n'
+        levels()
+
+
+def game_play(questions, answers):
+    '''This function takes two input parameters,one for the questions and other for the answers'''
+
+
+levels()
 
 
 
