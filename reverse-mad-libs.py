@@ -1,11 +1,40 @@
 # Question for first_level 
-first_level = """__1__ is a performing art form consisting of purposefully selected sequences of __3__ movement.
- This movement has aesthetic and symbolic __2__, and is acknowledged as dance by performers and observers within a particular culture.
+first_level = """__1__ is a performing art form consisting of purposefully selected sequences of __2__ movement.
+ This movement has aesthetic and symbolic __3__, and is acknowledged as dance by performers and observers within a particular culture.
   Dance can be categorized and described by its __4__,
  by its repertoire of movements, or by its historical period or __5__ of origin."""
 
+
+ 
+ def first_level_1(blank):
+    print """dance is a performing art form consisting of purposefully selected sequences of __2__ movement.
+ This movement has aesthetic and symbolic __3__, and is acknowledged as dance by performers and observers within a particular culture.
+  Dance can be categorized and described by its __4__,
+ by its repertoire of movements, or by its historical period or __5__ of origin."""
+ def first_level_2(blank):
+    print """dance is a performing art form consisting of purposefully selected sequences of value movement.
+ This movement has aesthetic and symbolic __3__, and is acknowledged as dance by performers and observers within a particular culture.
+  Dance can be categorized and described by its __4__,
+ by its repertoire of movements, or by its historical period or __5__ of origin."""
+ def first_level_3(blank):
+    print """dance is a performing art form consisting of purposefully selected sequences of value movement.
+ This movement has aesthetic and symbolic human, and is acknowledged as dance by performers and observers within a particular culture.
+  Dance can be categorized and described by its __4__,
+ by its repertoire of movements, or by its historical period or __5__ of origin."""
+ def first_level_4(blank):
+    print """dance is a performing art form consisting of purposefully selected sequences of value movement.
+ This movement has aesthetic and symbolic human, and is acknowledged as dance by performers and observers within a particular culture.
+  Dance can be categorized and described by its choreography,
+ by its repertoire of movements, or by its historical period or __5__ of origin."""
+ def first_level_5(blank):
+    print """dance is a performing art form consisting of purposefully selected sequences of value movement.
+ This movement has aesthetic and symbolic human, and is acknowledged as dance by performers and observers within a particular culture.
+  Dance can be categorized and described by its choreography,
+ by its repertoire of movements, or by its historical period or place of origin."""
+    
+
 # Answer for first_level
-first_level_answers = ['Dance', 'value', 'human', 'choreography', 'place']
+first_level_answers = ['dance', 'value', 'human', 'choreography', 'place']
 
 
 # Question for second_level
